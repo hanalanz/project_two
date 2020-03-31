@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "Optician Sans";
+	src: url(Optician-Sans.otf);
+}
+
+body{
+	background-color: #A29E95;
+}
+
+.img{
+	display: flex;
+	justify-content: center;
+	margin-left: 275px;
+}
+
+.one, .two, .three, .four, .five, .six{
+	position: absolute;
+}
+
+.container{
+	position: absolute;
+}
+
+/*.one{
+	margin-left: 500px;
+}
+/**/
+/*#one{
+	margin-top: 100px;
+}*/
+
+.one {
+	margin-top: -400px;
+	margin-left: 525px;
+}
+
+.five{
+	margin-top: -400px;
+	margin-left: 880px;
+}
+
+.two{
+	margin-top: -290px;
+	margin-left: 625px;
+}
+
+.four{
+	margin-top: -290px;
+	margin-left: 780px;
+	position: absolute;
+}
+
+.three{
+	margin-top: -245px;
+	margin-left: 475px;
+}
+
+.six{
+	margin-top: -245px;
+	margin-left: 940px;
+}
+
+h1{
+	color: white;
+	font-family: "Optician Sans", sans-serif;
+}
+
+#one:hover{
+	 color: transparent;
+   text-shadow: 0 0 5px /*rgba(0,0,0,0.5)*/ white;
+}
+
+#three:hover{
+	color: #FEFF00;
+}
+
+#four:hover{
+	font-size: 100px;
+	margin-top: -25px;
+
+
+
+}
+
+a{
+	text-decoration: none;
+}
+
