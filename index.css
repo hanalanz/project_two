@@ -34,9 +34,19 @@ body{
 	margin-left: 525px;
 }
 
+.fivetwo{
+	margin-left: -1000px;
+}
+
 .five{
 	margin-top: -400px;
-	margin-left: 880px;
+	margin-left: 870px;
+	display: flex;
+	flex-direction: row;
+}
+
+#five:hover{
+	margin-left: -10px;
 }
 
 .two{
@@ -48,6 +58,7 @@ body{
 	margin-top: -290px;
 	margin-left: 780px;
 	position: absolute;
+	font-kerning: none;
 }
 
 .three{
@@ -58,6 +69,10 @@ body{
 .six{
 	margin-top: -245px;
 	margin-left: 940px;
+}
+
+#fivetwo:hover{
+	margin-left: -5px;
 }
 
 h1{
