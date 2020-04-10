@@ -5,8 +5,13 @@
 	<link rel="stylesheet" type="text/css" href=""><style type="text/css">
 
 	img{
-		height: 15vh;
+		height: 100px;
 	}
+
+	@font-face {
+	font-family: "Optician Sans";
+	src: url(Optician-Sans.otf);
+}
 
 	body{
 	background-color: #A29E95;
@@ -14,13 +19,14 @@
 
 	.top{
 		display: flex;
+		position: absolute;
 
 
 	}
 
 	.body{
-/*		margin-top: 20px;*/
-		margin-left: 30px;
+	/*	margin-top: 20px;
+*/		margin-left: 30px;
 	}
 
 	.e{
@@ -28,25 +34,27 @@
 		font-size: 65px;
 		justify-content: center;
 		text-align: center;
-		margin-top: 60px;
+		margin-top: -60px;
+		position: absolute;
 	}
 
 	h1{
-		 color: transparent;
-   text-shadow: 0 0 5px black;
+/*		 color: transparent;
+   text-shadow: 0 0 5px black;*/
+   font-family: "Optician Sans", sans-serif;
 	}
 
 	.two{
-		margin-left: 550px;
+		margin-left: 580px;
 		font-size: 55px;
 		display: flex;
-		margin-top: -15px;
+		margin-top: -200px;
 	}
 
 	.three{
-		margin-left: 520px;
+		margin-left: 530px;
 		display: flex;
-/*		margin-top: -20vh;*/
+		margin-top: -170px;
 		font-size: 45px;
 	}
 
@@ -54,23 +62,23 @@
 		margin-right: 50px;
 	}
 	.four{
-		margin-left: 470px;
+		margin-left: 520px;
 		display: flex;
-/*		margin-top: -15vh;*/
+		margin-top: -120px;
 		font-size: 35px;
 	}
 
 	.five{
-		margin-left: 370px;
+		margin-left: 480px;
 		display: flex;
-/*		margin-top: -10vh;*/
+		margin-top: -80px;
 		font-size: 25px;
 	}
 
 	.six{
-		margin-left: 250px;
+		margin-left: 430px;
 		display: flex;
-/*		margin-top: -5vh;*/
+		margin-top: -50px;
 		font-size: 15px;
 	}
 
@@ -79,33 +87,93 @@
 		margin-top: 30px;
 	}
 
-	h1:hover{
-		   text-shadow: 0 0 0px black;
+	.triangle{
+		position: absolute;
+		margin-top: 250px;
+		margin-left: -150px;
 	}
 
-	img{
+	.box1{
+		background-color: black;
+		width: 150px;
+		height: 150px;
+		margin-top: 100px;
+		margin-left: 400px;
+		opacity: 1;
+		transition: 0.5s;
+		position: absolute;
+		
+		}
+
+
+
+	.box2{
+		background-color: black;
+		width: 50px;
+		height: 50px;
+		margin-top: 400px;
+		margin-left: 500px;
+		opacity: 1;
+		transition: 0.5s;
+		position: absolute;
+		}
+
+	.box3{
+		background-color: black;
+		width: 200px;
 		height: 100px;
-	}
+		margin-top: 270px;
+		margin-left: 600px;
+		opacity: 1;
+		transition: 0.5s;
+		position: absolute;
+		}
 
-	.let1{
-		height: 70px;
-	/*	margin-top: 10px;*/
-	}
+	.box4{
+		background-color: black;
+		width: 50px;
+		height: 200px;
+		margin-top: 270px;
+		margin-left: 300px;
+		opacity: 1;
+		transition: 0.5s;
+		position: absolute;
+		}
 
-	.let2{
-		height: 40px;
-		margin-top: 20px;
-	}
+	.box5{
+		background-color: black;
+		width: 100px;
+		height: 100px;
+		margin-top: 300px;
+		margin-left: 400px;
+		opacity: 1;
+		transition: 0.5s;
+		position: absolute;
+		}
 
-	.let3{
-		height: 20px;
-		margin-top: 40px;
-	}
+	.box1:hover {
+		opacity: 0;
+		}
 
-	.let4{
-		height: 5px;
-		margin-top: 50px;
-	}
+
+	.box2:hover {
+		opacity: 0;
+		}
+
+
+	.box3:hover {
+		opacity: 0;
+		}
+
+
+	.box4:hover {
+		opacity: 0;
+		}
+
+
+	.box5:hover {
+		opacity: 0;
+		}
 
 
 
@@ -115,30 +183,49 @@
 <body>
 <div class="body">
 
+
+
+	<div class="box1"></div>
+
+	<div class="box2"></div>
+
+	<div class="box3"></div>
+
+	<div class="box4"></div>
+
+	<div class="box5"></div>		
+
 	<div class="top">
 		<div class="lense"><a href="index.html"><img src="lense.png"></a></div>
-		<div class="e"><img src="letters-01.png"></div>
+		<div class="e"><h1>E</h1></div>
 	</div>
 
+
+	<div class="triangle">
+
 	<div class="two">
-		<div><img src="letters-02.png"></div><div><img src="letters-03.png"></div>
+		<h1 class="space">F</h1><h1>P</h1>
 	</div>	
 
 	<div class="three">
-		<div class="let1"><img src="letters-04.png"></div><div class="let1"><img src="letters-05.png"></div><div class="let1"><img src="letters-06.png"></div>
+		<h1 class="space">T </h1><h1 class="space">O </h1> <h1>Z</h1>
 	</div>	
 
 	<div class="four">
-	<div class="let2"><img src="letters-07.png"></div><div class="let2"><img src="letters-08.png"></div><div class="let2"><img src="letters-09.png"></div><div class="let2"><img src="letters-10.png"></div>
+		<h1 class="space">L</h1><h1 class="space">P</h1><h1 class="space">E</h1><h1>D</h1>
 	</div>
 
 	<div class="five">
-		<div class="let3"><img src="letters-11.png"></div><div class="let3"><img src="letters-12.png"></div><div class="let3"><img src="letters-12.png"></div><div class="let3"><img src="letters-14.png"></div><div class="let3"><img src="letters-15.png"></div><div class="let3"><img src="letters-16.png"></div>
+		<h1 class="space">P</h1><h1 class="space">E</h1><h1 class="space">C</h1><h1 class="space">F</h1><h1 class="space">A</h1> <h1>D</h1>
 	</div>	
 
 	<div class="six">
-	<div class="let4"><img src="letters-17.png"></div><div class="let4"><img src="letters-18.png"></div><div class="let4"><img src="letters-19.png"></div><div class="let4"><img src="letters-20.png"></div><div class="let4"><img src="letters-21.png"></div><div class="let4"><img src="letters-22.png"></div><div class="let4"><img src="letters-23.png"></div><div class="let4"><img src="letters-24.png"></div>
+		<h1 class="space">E </h1> <h1 class="space">D</h1><h1 class="space">F</h1> <h1 class="space">C</h1> <h1 class="space"> H</h1><h1 class="space"> Z</h1><h1 class="space"> B</h1><h1>P</h1>
 	</div>	
+
+	</div>
+
+
 
 </div>
 </body>

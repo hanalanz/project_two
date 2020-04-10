@@ -52,6 +52,7 @@ body{
 .two{
 	margin-top: -290px;
 	margin-left: 625px;
+	position: absolute;
 }
 
 .four{
@@ -68,7 +69,30 @@ body{
 
 .six{
 	margin-top: -245px;
-	margin-left: 940px;
+	margin-left: 920px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.boxy{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	margin-top: -270px;
+	margin-left: 625px;
+	opacity: 1;
+	transition: 0.5s;
+	position: absolute;
+}
+
+.boxy:hover{
+	opacity: 0;
+}
+
+#eye{
+	visibility: hidden;
+
 }
 
 #fivetwo:hover{
@@ -100,4 +124,15 @@ h1{
 a{
 	text-decoration: none;
 }
+
+
+
+.six:hover #eye{
+	visibility: visible;
+}
+
+
+
+
+
 
