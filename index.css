@@ -3,133 +3,136 @@
 	src: url(Optician-Sans.otf);
 }
 
-body{
-	background-color: #A29E95;
-}
-
-.img{
-	display: flex;
-	justify-content: center;
-	margin-left: 275px;
-}
-
-.one, .two, .three, .four, .five, .six{
-	position: absolute;
-}
-
-.container{
-	position: absolute;
-}
-
-/*.one{
-	margin-left: 500px;
-}
-/**/
-/*#one{
-	margin-top: 100px;
-}*/
-
-.one {
-	margin-top: -400px;
-	margin-left: 525px;
-}
-
-.fivetwo{
-	margin-left: -1000px;
-}
-
-.five{
-	margin-top: -400px;
-	margin-left: 870px;
-	display: flex;
-	flex-direction: row;
-}
-
-#five:hover{
-	margin-left: -10px;
-}
-
-.two{
-	margin-top: -290px;
-	margin-left: 625px;
-	position: absolute;
-}
-
-.four{
-	margin-top: -290px;
-	margin-left: 780px;
-	position: absolute;
-	font-kerning: none;
-}
-
-.three{
-	margin-top: -245px;
-	margin-left: 475px;
-}
-
-.six{
-	margin-top: -245px;
-	margin-left: 920px;
-	display: flex;
-	flex-direction: row;
-
-}
-
-.boxy{
-	width: 30px;
-	height: 30px;
-	background-color: white;
-	margin-top: -270px;
-	margin-left: 625px;
-	opacity: 1;
-	transition: 0.5s;
-	position: absolute;
-}
-
-.boxy:hover{
-	opacity: 0;
-}
-
-#eye{
-	visibility: hidden;
-
-}
-
-#fivetwo:hover{
-	margin-left: -5px;
-}
-
-h1{
+h1 {
 	color: white;
 	font-family: "Optician Sans", sans-serif;
 }
 
+
+a {
+	text-decoration: none;
+}
+ 
+
+body{
+	background-color: #A29E95;
+	overflow: hidden;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	position: absolute;
+}
+
+.img{
+	position: absolute;
+	display: flex;
+	top: 20%;
+	left: 25%;
+	width: 900px;
+	z-index: 0;
+}
+
+.one {
+	position: absolute;
+	top: 34%;
+	left: 27.5%;
+	z-index: 10;
+}
+
 #one:hover{
-	 color: transparent;
-   text-shadow: 0 0 5px /*rgba(0,0,0,0.5)*/ white;
+	color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5) white;
+}
+
+
+#square {
+	position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 25%; 
+    left: -10px;
+    background: black;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#square:hover {
+	opacity: 0;
+}
+
+
+.two{
+	position: absolute;
+	top: 51.6%;
+	left: 38.3%;
+	z-index: 9;
+}
+
+
+.three{
+	position: absolute;
+	top: 59%;
+	left: 21.5%;
+	z-index: 8;
 }
 
 #three:hover{
 	color: #FEFF00;
 }
 
+.four{
+	position: absolute;
+	top: 51.6%;
+	left: 56.5%;
+	z-index: 7;
+}
+
 #four:hover{
 	font-size: 100px;
 	margin-top: -25px;
 
-
-
 }
 
-a{
-	text-decoration: none;
+.five{
+	position: absolute;
+	top: 34%;
+	left: 66.2%;
+	z-index: 6;
 }
 
+#five2 {
+	color: white;
+	font-family: "Optician Sans", sans-serif;
+
+}
+#five2:hover{
+	letter-spacing: -6px;
+}
+
+.six{
+	display: flex;
+	position: absolute;
+	top: 59%;
+	left: 73.6%;
+	z-index: 5;
+}
+
+#eye{
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 102%;
+}
 
 
 .six:hover #eye{
 	visibility: visible;
 }
+
+
 
 
 
